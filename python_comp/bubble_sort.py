@@ -14,8 +14,8 @@ for i in range(n):
             num_of_swap +=1
             z += 1
             
-        if num_of_swap == 0:
-            break
+    if num_of_swap == 0:
+        break
         
 print('Array is sorted in {} swaps.'.format(z))
 print('First Element: {}'.format(a[0]))
